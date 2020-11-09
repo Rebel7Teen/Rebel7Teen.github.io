@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wicked Image Grid</title>
+    
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+</style>
+    
+    </head>
+
+<body>
+    <body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Wicked Image Grid</h1>
+  <p>Cool images that I like.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="https://scontent.fymq3-1.fna.fbcdn.net/v/t1.0-9/124254692_4069763283038682_2379829079579046794_o.jpg?_nc_cat=111&ccb=2&_nc_sid=b9115d&_nc_ohc=OjunsOMwxVgAX9OsA3n&_nc_ht=scontent.fymq3-1.fna&oh=489b551fe3cce3acc28d39a8cb0d19e0&oe=5FCD759A" style="width:100%">
+    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/frankenstrat-studio-shoot-guitarist-magazine.jpg" style="width:100%">
+    <img src="https://img.locationscout.net/images/2018-07/fiji-waterfall-indonesia_l.jpeg" style="width:100%">
+    <img src="https://www.everythingzoomer.com/wp-content/uploads/2017/08/MAG_HERO_0717_Getty_Prairies.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/736x/22/f9/cf/22f9cff3f4a5a8a434109f359ab6d550.jpg" style="width:100%">
+    <img src="https://www.vhnd.com/wp-content/uploads/2015/08/Alex_Van_Halen_2015_tour_Ludwig_Classic_Maple_Drum_Set_kit_5.jpg" style="width:100%">
+ </div>
+  
+  <div class="column">
+    <img src="https://assets.newatlas.com/dims4/default/29141b5/2147483647/strip/true/crop/1999x1333+0+0/resize/1200x800!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F6b%2F6a%2F84eb9afc46078a4112e764af5953%2Fdepositphotos-24687075-l-2015.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/48/eb/86/48eb8665fd6b0b70b4710d279e4ccc5a.jpg" style="width:100%">
+    <img src="https://scontent.fymq3-1.fna.fbcdn.net/v/t1.0-9/124254692_4069763283038682_2379829079579046794_o.jpg?_nc_cat=111&ccb=2&_nc_sid=b9115d&_nc_ohc=OjunsOMwxVgAX9OsA3n&_nc_ht=scontent.fymq3-1.fna&oh=489b551fe3cce3acc28d39a8cb0d19e0&oe=5FCD759A" style="width:100%">
+    <img src="https://www.rei.com/adventures/assets/adventures/images/trip/core/northamerica/can_hero" style="width:100%">
+    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/frankenstrat-studio-shoot-guitarist-magazine.jpg" style="width:100%">
+    <img src="https://assets.newatlas.com/dims4/default/29141b5/2147483647/strip/true/crop/1999x1333+0+0/resize/1200x800!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F6b%2F6a%2F84eb9afc46078a4112e764af5953%2Fdepositphotos-24687075-l-2015.jpg" style="width:100%">
+    <img src="https://www.everythingzoomer.com/wp-content/uploads/2017/08/MAG_HERO_0717_Getty_Prairies.jpg" style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="https://scontent.fymq3-1.fna.fbcdn.net/v/t1.0-9/124254692_4069763283038682_2379829079579046794_o.jpg?_nc_cat=111&ccb=2&_nc_sid=b9115d&_nc_ohc=OjunsOMwxVgAX9OsA3n&_nc_ht=scontent.fymq3-1.fna&oh=489b551fe3cce3acc28d39a8cb0d19e0&oe=5FCD759A" style="width:100%">
+    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/frankenstrat-studio-shoot-guitarist-magazine.jpg" style="width:100%">
+    <img src="https://img.locationscout.net/images/2018-07/fiji-waterfall-indonesia_l.jpeg" style="width:100%">
+    <img src="https://www.everythingzoomer.com/wp-content/uploads/2017/08/MAG_HERO_0717_Getty_Prairies.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/736x/22/f9/cf/22f9cff3f4a5a8a434109f359ab6d550.jpg" style="width:100%">
+    <img src="https://www.vhnd.com/wp-content/uploads/2015/08/Alex_Van_Halen_2015_tour_Ludwig_Classic_Maple_Drum_Set_kit_5.jpg" style="width:100%">
+ </div>
+  
+  <div class="column">
+    <img src="https://assets.newatlas.com/dims4/default/29141b5/2147483647/strip/true/crop/1999x1333+0+0/resize/1200x800!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F6b%2F6a%2F84eb9afc46078a4112e764af5953%2Fdepositphotos-24687075-l-2015.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/48/eb/86/48eb8665fd6b0b70b4710d279e4ccc5a.jpg" style="width:100%">
+    <img src="https://scontent.fymq3-1.fna.fbcdn.net/v/t1.0-9/124254692_4069763283038682_2379829079579046794_o.jpg?_nc_cat=111&ccb=2&_nc_sid=b9115d&_nc_ohc=OjunsOMwxVgAX9OsA3n&_nc_ht=scontent.fymq3-1.fna&oh=489b551fe3cce3acc28d39a8cb0d19e0&oe=5FCD759A" style="width:100%">
+    <img src="https://www.rei.com/adventures/assets/adventures/images/trip/core/northamerica/can_hero" style="width:100%">
+    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/frankenstrat-studio-shoot-guitarist-magazine.jpg" style="width:100%">
+    <img src="https://assets.newatlas.com/dims4/default/29141b5/2147483647/strip/true/crop/1999x1333+0+0/resize/1200x800!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F6b%2F6a%2F84eb9afc46078a4112e764af5953%2Fdepositphotos-24687075-l-2015.jpg" style="width:100%">
+      <img src="https://www.everythingzoomer.com/wp-content/uploads/2017/08/MAG_HERO_0717_Getty_Prairies.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</body>
+</html>
