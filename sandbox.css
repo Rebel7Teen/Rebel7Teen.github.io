@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 .main_wrapper {width:100%;background-color:cornsilk;}
-.header {width:100%;background-color:dodgerblue;}
+.header_div {width:100%;background-color:dodgerblue;margin:5px;}
+.header_img {display:block;width:60%;height:auto;margin:0 auto;padding:10px}
 .body_wrapper {width:100%;background-color:orange;}
 h1 {font-family: 'Architects Daughter', cursive;}
 p {font-family: 'Architects Daughter', cursive;}
