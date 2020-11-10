@@ -12,7 +12,7 @@ p {font-family: 'Architects Daughter', cursive;}
 /* General Styling */
 * {box-sizing: border-box;}
 body {background-color:#131313;color:white;margin:0 auto;font-family: "Roboto", sans-serif;}
-.wrapper {width:90%;margin:auto;}
+.nav_wrapper {width:90%;margin:auto;}
 a {text-decoration:none;}
 
 /* Nav Bar Styling */
