@@ -30,12 +30,12 @@ a.cv:hover,a.cv:active {background:#002859;}
 a.contact:hover,a.contact:active {background:#238e23;}
 
 /* More Nav Bar Styling *//*From https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar*/
-.dropdown {
+.portfolio_dropdown {
   float: left;
   overflow: hidden;
 }
 
-.dropdown .dropbtn {
+.portfolio_dropdown .dropbtn {
   font-size: 16px;  
   border: none;
   outline: none;
@@ -46,11 +46,11 @@ a.contact:hover,a.contact:active {background:#238e23;}
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .portfolio_dropdown:hover .dropbtn {
   background-color: red;
 }
 
-.dropdown-content {
+.portfolio_dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -59,7 +59,7 @@ a.contact:hover,a.contact:active {background:#238e23;}
   z-index: 1;
 }
 
-.dropdown-content a {
+.portfolio_dropdown-content a {
   float: none;
   color: black;
   padding: 12px 16px;
@@ -68,11 +68,11 @@ a.contact:hover,a.contact:active {background:#238e23;}
   text-align: left;
 }
 
-.dropdown-content a:hover {
+.portfolio_dropdown-content a:hover {
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
+portfolio_dropdown:hover .portfolio_dropdown-content {
   display: block;
 }
 
