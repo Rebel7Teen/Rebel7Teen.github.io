@@ -16,7 +16,7 @@ body {background-color:#131313;color:white;margin:0 auto;font-family: "Roboto", 
 a {text-decoration:none;}*/
 
 /* Nav Bar Styling */
-/*.logo {font-size: 3em;margin-left:25px;color:white;}
+.logo {font-size: 3em;margin-left:25px;color:white;}
 .top-bar::after {content: '';display:block;background:#494949;height:5px;border-top-left-radius:3px;border-top-right-radius:3px;}
 .second-bar {width:100%;border-radius:10px;}
 .main-nav a {float:left;width:20%;background:#343434;}
@@ -27,7 +27,7 @@ a.home:hover,a.home:active {background:#a62a2a;}
 a.portfolio:hover,a.portfolio:active {background:#ff2400;}
 a.blog:hover,a.blog:active {background:#7f00ff;}
 a.cv:hover,a.cv:active {background:#002859;}
-a.contact:hover,a.contact:active {background:#238e23;}*/
+a.contact:hover,a.contact:active {background:#238e23;}
 
 /* More Nav Bar Styling *//*From https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar*/
 .navbar {
