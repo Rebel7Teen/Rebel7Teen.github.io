@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Date Finder</title>
+    
+    <script type="text/javascript">
+    
+        
+        function getDays()
+        {
+                        
+            var numberOfDaysToSub = document.getElementById("days").value;
+            var cdate = document.getElementById('date').valueAsDate;
+            date = new Date( cdate.getTime() - cdate.getTimezoneOffset() * -60000 )
+            date.setTime( date.getTime() - numberOfDaysToSub * 86400000);
+            document.getElementById('start').innerHTML = "Start on: " + date;
+            
+            var numberOfDaysToAdd = document.getElementById("days").value;
+            var tdate = document.getElementById('date').valueAsDate;
+            date = new Date( tdate.getTime() - tdate.getTimezoneOffset() * -60000 )
+            date.setTime( date.getTime() + numberOfDaysToAdd * 86400000);
+            document.getElementById('closes').innerHTML = "End by: " + date + " EST";
+            
+            
+            
+            
+            
+        }
+
+    </script>
+ <style>
+ @media (min-width:1025px) {
+    
+        #header {width:600px;margin-left:auto;margin-right:auto;
+            
+        }
+    
+        .top {position:relative;top:80px;
+        }
+        
+        h1 {display:block;text-align:center;font-family:arial;font-size:48px;font-weight:700;color:purple; 
+        }
+        
+        h2 {display:block;text-align:center;font-family:arial;font-size:24px;font-weight:normal 
+        }
+     
+        p {display:block;text-align:center;font-family:arial;font-size:18px;font-weight:normal 
+        }
+        
+        #calculator {width:600px;margin-left:auto;margin-right:auto;
+        }
+        
+        #date1 {
+            width:400px;font-family:arial;font-size:20px;margin-left:auto;margin-right:auto
+        }
+        
+        #date {position:relative;left:20px;
+            
+        }
+        
+        #start {font-family:arial;font-size:24px;margin:20px;color:green;
+        }
+        
+        #closes {font-family:arial;font-size:24px;margin:20px;color:red;
+        }
+    
+        label {padding-top:14px;font-size:24px;
+        }
+    
+        .navList a:hover { color:#000000;
+        }
+    
+        .containerFooter {position:relative;top:120px
+        }
+        
+    }     
+     
+</style>
+    
+    
+</head>
+
+<body>
+    
+ <div class="main_container">
+ <div class="top">
+     <h1>
+        DATE CALCULATOR
+     </h1>
+    
+    
+    <h2>
+    Open the calendar below and select your date.
+    
+    </h2>
+     <p>What I am looking to do is select a date, and return the dates 30 days prior and 30 days later, <u>but without the time.</u><br>
+     There are also certain dates when selected, do not return the correct date. October 30 for example (try it, the end date should be November 29).</p>
+    <div id="calculator">
+        <div id="30days" style="display:none;"><p><label class="form">Days:</label><input type="text" value="30" class="textbox" id="days" name="days" onchange="getDays()"></p></div> 
+        <div id="date1"><p><label class="form">Date:</label><input type="date"  id="date" name="date" onchange="getDays()"/></p></div>
+        <div id="start"></div>
+        <div id="closes"></div>
+    </div>   
+ 
+ </div>  
+</div>   
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
