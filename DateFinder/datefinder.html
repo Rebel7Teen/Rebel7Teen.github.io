@@ -10,19 +10,34 @@
         function getDays()
         {
                         
+            //var numberOfDaysToSub = document.getElementById("days").value;
+//            var cdate = document.getElementById('date').valueAsDate;
+//            date = new Date( cdate.getTime() - cdate.getTimezoneOffset() * -60000 )
+//            date.setTime( date.getTime() - numberOfDaysToSub * 86400000);
+//            document.getElementById('start').innerHTML = "Start on: " + date;
+//            
+//            
+//            var numberOfDaysToAdd = document.getElementById("days").value;
+//            var tdate = document.getElementById('date').valueAsDate;
+//            date = new Date( tdate.getTime() - tdate.getTimezoneOffset() * -60000 )
+//            date.setTime( date.getTime() + numberOfDaysToAdd * 86400000);
+//            document.getElementById('closes').innerHTML = "End by: " + date + " EST";
+            
             var numberOfDaysToSub = document.getElementById("days").value;
             var cdate = document.getElementById('date').valueAsDate;
             date = new Date( cdate.getTime() - cdate.getTimezoneOffset() * -60000 )
             date.setTime( date.getTime() - numberOfDaysToSub * 86400000);
+            date = date.toDateString();
             document.getElementById('start').innerHTML = "Start on: " + date;
+            
+            
             
             var numberOfDaysToAdd = document.getElementById("days").value;
             var tdate = document.getElementById('date').valueAsDate;
             date = new Date( tdate.getTime() - tdate.getTimezoneOffset() * -60000 )
             date.setTime( date.getTime() + numberOfDaysToAdd * 86400000);
+            date = date.toDateString();
             document.getElementById('closes').innerHTML = "End by: " + date + " EST";
-            
-            
             
             
             
