@@ -4,8 +4,10 @@
 .top_area {width:100%;background-color:dodgerblue;margin:5px;}
 .top_area_img {display:block;width:60%;height:auto;margin:0 auto;padding:10px}
 .body_wrapper {width:100%;background-color:orange;}
-h1 {font-family: 'Architects Daughter', cursive;}
-p {font-family: 'Architects Daughter', cursive;}
+/*h1 {font-family: 'Architects Daughter', cursive;}
+p {font-family: 'Architects Daughter', cursive;}*/
+h1 {font-family: 'Shadows Into Light', cursive;}
+p {font-family: 'Shadows Into Light', cursive;}
 .footer {width:100%;background-color:darkslateblue;}
 
 /* Nav CSS Start */ /* From https://codepen.io/Tmoore52/pen/RPBwpJ */
